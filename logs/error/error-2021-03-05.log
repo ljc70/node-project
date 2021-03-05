@@ -1,0 +1,245 @@
+[2021-03-05T10:26:13.151] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /findList/getUser?pageNum=1&pageSize=20
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 2
+err name: UnauthorizedError
+err message: Authentication Error
+err stack: UnauthorizedError: Authentication Error
+    at Object.throw (/Users/ljc/Desktop/node-project/node_modules/_koa@2.13.1@koa/lib/context.js:97:11)
+    at jwt (/Users/ljc/Desktop/node-project/node_modules/_koa-jwt@3.6.0@koa-jwt/lib/index.js:23:22)
+    at /Users/ljc/Desktop/node-project/node_modules/_koa-unless@1.0.7@koa-unless/index.js:29:12
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at loggerHandle (/Users/ljc/Desktop/node-project/middlewares/loggerHandle.js:9:11)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/ljc/Desktop/node-project/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at send.then.done (/Users/ljc/Desktop/node-project/node_modules/_koa-static@3.0.0@koa-static/index.js:43:20)
+*************** error log end ***************
+
+[2021-03-05T10:26:13.183] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /createListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"role":31,"desc":"哈哈哈"}
+response time: 1
+err name: UnauthorizedError
+err message: Authentication Error
+err stack: UnauthorizedError: Authentication Error
+    at Object.throw (/Users/ljc/Desktop/node-project/node_modules/_koa@2.13.1@koa/lib/context.js:97:11)
+    at jwt (/Users/ljc/Desktop/node-project/node_modules/_koa-jwt@3.6.0@koa-jwt/lib/index.js:23:22)
+    at /Users/ljc/Desktop/node-project/node_modules/_koa-unless@1.0.7@koa-unless/index.js:29:12
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at loggerHandle (/Users/ljc/Desktop/node-project/middlewares/loggerHandle.js:9:11)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/ljc/Desktop/node-project/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at serve (/Users/ljc/Desktop/node-project/node_modules/_koa-static@3.0.0@koa-static/index.js:47:14)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at logger (/Users/ljc/Desktop/node-project/node_modules/_koa-logger@2.0.1@koa-logger/index.js:50:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at filter (/Users/ljc/Desktop/node-project/node_modules/_koa-json@2.0.2@koa-json/index.js:25:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at parseBody.then.body (/Users/ljc/Desktop/node-project/node_modules/_koa-bodyparser@3.2.0@koa-bodyparser/index.js:74:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2021-03-05T10:27:08.521] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /findList/getUser?pageNum=1&pageSize=20
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 1
+err name: UnauthorizedError
+err message: Authentication Error
+err stack: UnauthorizedError: Authentication Error
+    at Object.throw (/Users/ljc/Desktop/node-project/node_modules/_koa@2.13.1@koa/lib/context.js:97:11)
+    at jwt (/Users/ljc/Desktop/node-project/node_modules/_koa-jwt@3.6.0@koa-jwt/lib/index.js:23:22)
+    at /Users/ljc/Desktop/node-project/node_modules/_koa-unless@1.0.7@koa-unless/index.js:29:12
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at loggerHandle (/Users/ljc/Desktop/node-project/middlewares/loggerHandle.js:9:11)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/ljc/Desktop/node-project/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at send.then.done (/Users/ljc/Desktop/node-project/node_modules/_koa-static@3.0.0@koa-static/index.js:43:20)
+*************** error log end ***************
+
+[2021-03-05T10:27:08.544] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /createListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"role":31,"desc":"哈哈哈"}
+response time: 1
+err name: UnauthorizedError
+err message: Authentication Error
+err stack: UnauthorizedError: Authentication Error
+    at Object.throw (/Users/ljc/Desktop/node-project/node_modules/_koa@2.13.1@koa/lib/context.js:97:11)
+    at jwt (/Users/ljc/Desktop/node-project/node_modules/_koa-jwt@3.6.0@koa-jwt/lib/index.js:23:22)
+    at /Users/ljc/Desktop/node-project/node_modules/_koa-unless@1.0.7@koa-unless/index.js:29:12
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at loggerHandle (/Users/ljc/Desktop/node-project/middlewares/loggerHandle.js:9:11)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/ljc/Desktop/node-project/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at serve (/Users/ljc/Desktop/node-project/node_modules/_koa-static@3.0.0@koa-static/index.js:47:14)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at logger (/Users/ljc/Desktop/node-project/node_modules/_koa-logger@2.0.1@koa-logger/index.js:50:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at filter (/Users/ljc/Desktop/node-project/node_modules/_koa-json@2.0.2@koa-json/index.js:25:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at parseBody.then.body (/Users/ljc/Desktop/node-project/node_modules/_koa-bodyparser@3.2.0@koa-bodyparser/index.js:74:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2021-03-05T10:28:04.991] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /findList/getUser?pageNum=1&pageSize=20
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 1
+err name: UnauthorizedError
+err message: Authentication Error
+err stack: UnauthorizedError: Authentication Error
+    at Object.throw (/Users/ljc/Desktop/node-project/node_modules/_koa@2.13.1@koa/lib/context.js:97:11)
+    at jwt (/Users/ljc/Desktop/node-project/node_modules/_koa-jwt@3.6.0@koa-jwt/lib/index.js:23:22)
+    at /Users/ljc/Desktop/node-project/node_modules/_koa-unless@1.0.7@koa-unless/index.js:29:12
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at loggerHandle (/Users/ljc/Desktop/node-project/middlewares/loggerHandle.js:9:11)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/ljc/Desktop/node-project/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at send.then.done (/Users/ljc/Desktop/node-project/node_modules/_koa-static@3.0.0@koa-static/index.js:43:20)
+*************** error log end ***************
+
+[2021-03-05T10:28:05.015] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /createListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"role":31,"desc":"哈哈哈"}
+response time: 0
+err name: UnauthorizedError
+err message: Authentication Error
+err stack: UnauthorizedError: Authentication Error
+    at Object.throw (/Users/ljc/Desktop/node-project/node_modules/_koa@2.13.1@koa/lib/context.js:97:11)
+    at jwt (/Users/ljc/Desktop/node-project/node_modules/_koa-jwt@3.6.0@koa-jwt/lib/index.js:23:22)
+    at /Users/ljc/Desktop/node-project/node_modules/_koa-unless@1.0.7@koa-unless/index.js:29:12
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at loggerHandle (/Users/ljc/Desktop/node-project/middlewares/loggerHandle.js:9:11)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/ljc/Desktop/node-project/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at serve (/Users/ljc/Desktop/node-project/node_modules/_koa-static@3.0.0@koa-static/index.js:47:14)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at logger (/Users/ljc/Desktop/node-project/node_modules/_koa-logger@2.0.1@koa-logger/index.js:50:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at filter (/Users/ljc/Desktop/node-project/node_modules/_koa-json@2.0.2@koa-json/index.js:25:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at parseBody.then.body (/Users/ljc/Desktop/node-project/node_modules/_koa-bodyparser@3.2.0@koa-bodyparser/index.js:74:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2021-03-05T10:30:08.086] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /findList/getUser?pageNum=1&pageSize=20
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 1
+err name: UnauthorizedError
+err message: Authentication Error
+err stack: UnauthorizedError: Authentication Error
+    at Object.throw (/Users/ljc/Desktop/node-project/node_modules/_koa@2.13.1@koa/lib/context.js:97:11)
+    at jwt (/Users/ljc/Desktop/node-project/node_modules/_koa-jwt@3.6.0@koa-jwt/lib/index.js:23:22)
+    at /Users/ljc/Desktop/node-project/node_modules/_koa-unless@1.0.7@koa-unless/index.js:29:12
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at loggerHandle (/Users/ljc/Desktop/node-project/middlewares/loggerHandle.js:9:11)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/ljc/Desktop/node-project/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at send.then.done (/Users/ljc/Desktop/node-project/node_modules/_koa-static@3.0.0@koa-static/index.js:43:20)
+*************** error log end ***************
+
+[2021-03-05T10:30:08.117] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /createListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"role":31,"desc":"哈哈哈"}
+response time: 0
+err name: UnauthorizedError
+err message: Authentication Error
+err stack: UnauthorizedError: Authentication Error
+    at Object.throw (/Users/ljc/Desktop/node-project/node_modules/_koa@2.13.1@koa/lib/context.js:97:11)
+    at jwt (/Users/ljc/Desktop/node-project/node_modules/_koa-jwt@3.6.0@koa-jwt/lib/index.js:23:22)
+    at /Users/ljc/Desktop/node-project/node_modules/_koa-unless@1.0.7@koa-unless/index.js:29:12
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at loggerHandle (/Users/ljc/Desktop/node-project/middlewares/loggerHandle.js:9:11)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/ljc/Desktop/node-project/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at serve (/Users/ljc/Desktop/node-project/node_modules/_koa-static@3.0.0@koa-static/index.js:47:14)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at logger (/Users/ljc/Desktop/node-project/node_modules/_koa-logger@2.0.1@koa-logger/index.js:50:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at filter (/Users/ljc/Desktop/node-project/node_modules/_koa-json@2.0.2@koa-json/index.js:25:12)
+    at dispatch (/Users/ljc/Desktop/node-project/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at parseBody.then.body (/Users/ljc/Desktop/node-project/node_modules/_koa-bodyparser@3.2.0@koa-bodyparser/index.js:74:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2021-03-05T10:34:08.926] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /projects/changeListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"111","role":32,"desc":"哈哈哈1"}
+response time: 7
+err name: updateListFail
+err message: 更新失败
+err stack: updateListFail: 更新失败
+    at List.findByIdAndUpdate.then.catch (/Users/ljc/Desktop/node-project/app/controllers/list.js:37:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2021-03-05T10:34:51.437] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /projects/changeListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"111","role":32,"desc":"哈哈哈1"}
+response time: 5
+err name: updateListFail
+err message: 更新失败
+err stack: updateListFail: 更新失败
+    at List.findByIdAndUpdate.then.catch (/Users/ljc/Desktop/node-project/app/controllers/list.js:37:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2021-03-05T10:34:51.441] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /projects/deleteListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"111"}
+response time: 1
+err name: deleteListFail
+err message: 删除失败
+err stack: deleteListFail: 删除失败
+    at List.deleteOne.then.catch (/Users/ljc/Desktop/node-project/app/controllers/list.js:50:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+

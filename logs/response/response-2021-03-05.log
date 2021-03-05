@@ -1,0 +1,159 @@
+[2021-03-05T09:15:42.719] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList?pageNum=1&pageSize=20
+request client ip:  ::1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 375
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":{"docs":[],"total":0,"limit":20,"page":"1","pages":1}}
+*************** response log end ***************
+
+[2021-03-05T09:39:36.479] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList?pageNum=1&pageSize=20
+request client ip:  ::1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 24
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":{"docs":[],"total":0,"limit":20,"page":"1","pages":1}}
+*************** response log end ***************
+
+[2021-03-05T10:26:39.254] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList?pageNum=1&pageSize=20
+request client ip:  ::1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 61
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":{"docs":[],"total":0,"limit":20,"page":"1","pages":1}}
+*************** response log end ***************
+
+[2021-03-05T10:27:18.292] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList?pageNum=1&pageSize=20
+request client ip:  ::1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 26
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":{"docs":[],"total":0,"limit":20,"page":"1","pages":1}}
+*************** response log end ***************
+
+[2021-03-05T10:30:50.999] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList/getUser?pageNum=1&pageSize=20
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success"}
+*************** response log end ***************
+
+[2021-03-05T10:31:32.387] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList/getUser?pageNum=1&pageSize=20
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success"}
+*************** response log end ***************
+
+[2021-03-05T10:31:32.461] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /projects/createListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"role":31,"desc":"哈哈哈"}
+response time: 47
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":true}
+*************** response log end ***************
+
+[2021-03-05T10:31:37.710] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList?pageNum=1&pageSize=20
+request client ip:  ::1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 57
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":{"docs":[{"role":31,"_id":"6041980461c8ea068a21e3ab","desc":"哈哈哈","updated":"2021-03-05T02:31:32.415Z","created":"2021-03-05T02:31:32.419Z","__v":0}],"total":1,"limit":20,"page":"1","pages":1}}
+*************** response log end ***************
+
+[2021-03-05T10:34:08.850] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList/getUser?pageNum=1&pageSize=20
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 3
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success"}
+*************** response log end ***************
+
+[2021-03-05T10:34:08.916] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /projects/createListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"role":31,"desc":"哈哈哈"}
+response time: 41
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":true}
+*************** response log end ***************
+
+[2021-03-05T10:34:15.954] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList?pageNum=1&pageSize=20
+request client ip:  ::1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 69
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":{"docs":[{"role":31,"_id":"6041980461c8ea068a21e3ab","desc":"哈哈哈","updated":"2021-03-05T02:31:32.415Z","created":"2021-03-05T02:31:32.419Z","__v":0},{"role":31,"_id":"604198a078efea06b5eaa44f","desc":"哈哈哈","updated":"2021-03-05T02:34:08.875Z","created":"2021-03-05T02:34:08.880Z","__v":0}],"total":2,"limit":20,"page":"1","pages":1}}
+*************** response log end ***************
+
+[2021-03-05T10:34:51.115] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /projects/findList/getUser?pageNum=1&pageSize=20
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageNum":"1","pageSize":"20"}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success"}
+*************** response log end ***************
+
+[2021-03-05T10:34:51.429] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /projects/createListItem
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"role":31,"desc":"哈哈哈"}
+response time: 284
+response status: 200
+response body: 
+{"code":0,"success":true,"message":"success","data":true}
+*************** response log end ***************
+
